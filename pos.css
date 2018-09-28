@@ -14,7 +14,7 @@ h1{
 }
 
 section{
-	
+
 	border-bottom: 1px solid #000;
 }
 
@@ -33,7 +33,7 @@ section{
 
 .col{
 	width: 50px;
-	min-height: 50px;	
+	min-height: 50px;
 }
 
 .trolley-grey{
@@ -46,4 +46,18 @@ section{
 
 .middle-red{
 	background: #DE8F6E;
+}
+.flexbox{
+	display: flex;
+	justify-content: center;
+	align-items:  flex-start;
+	flex-direction: row;
+}
+.flexitem{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+.strech-item{
+	align-self: stretch;
 }
